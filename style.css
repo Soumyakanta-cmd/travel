@@ -1,0 +1,110 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+header{
+    width:100%;
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) ,url('be.jpg');
+    background-size: cover;
+    background-position:center;
+}
+nav{
+    width:100%;
+    height:100px;
+    background-color:azure;
+    color:chocolate;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    font-size:2em;
+    letter-spacing: 2px;
+    transition: transform 1s;   
+}
+.logo:hover{
+    transform: rotateY(180deg);
+}
+
+.menu a{
+    text-decoration: none;
+    color:chocolate;
+    font-size: 1.5em;
+    padding:10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+.menu a:before{
+    content:' ';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 0%;
+    height: 100%;
+    border-bottom:4px solid indianred;
+    color: white;
+    transition: 0.2s linear;
+
+}
+.menu a:hover:before{
+    width:90%;
+
+}
+
+
+
+.register a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding:10px 20px;
+    background-color: indianred;
+    border-radius: 9px;
+    transition: 0.4s ;
+}
+.register a:hover{
+    background:transparent;
+    border:2px solid indianred;
+    color:indianred;
+}
+
+.hd{
+    max-width: 650px;
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color:white;
+    
+}
+.hd span{
+    letter-spacing: 6px;
+    font-size: 30px;
+    
+
+}
+.hd h1{
+    font-size: 3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hd a{
+    text-decoration: none;
+    background: indianred;
+    color:white;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    transition: 0.4s;
+
+}
+.hd a:hover{
+    background:transparent;
+    border:2px solid indianred;
+
+}
