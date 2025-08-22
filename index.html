@@ -3,17 +3,17 @@
         <title>travel</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <header>
+    <body>  
+        <header id="header">
             <nav>
                 <div class="logo">Travel-X</div>
                 <div class="menu">
                     <ul>
-                        <a href="#">Home</a>
-                        <a href="#">Hill Station</a>
-                        <a href="#">Best Offer</a>
-                        <a href="#">Our Sites</a>
-                        <a href="#">Contact</a>
+                        <a href="#header">Home</a>
+                        <a href="#our-sites">Our Sites</a>
+                        <a href="#best-offer">Best Offer</a>
+                        <a href="#hill-stations">Hill Station</a>
+                        <a href="#book-trip">Book Trip</a>
                     </ul>
                     
                 </div>
@@ -27,5 +27,197 @@
                 
             </section>
         </header>
+        <br><br>
+        <!-- New Section: Our Sites -->
+        <section id="our-sites" class="about">
+            <h2>About Our Sites</h2>
+            <p>
+                At Travel-X, we bring you the most beautiful destinations around the globe. 
+                Whether it’s the serene beaches, adventurous hill stations, or luxurious city tours, 
+                our curated travel packages are designed to make your journey unforgettable.
+            </p>
+            
+            <div class="sites-list">
+                <div class="site">
+                    <h3>🌴 Maldives</h3>
+                    <p>Experience white sandy beaches and crystal-clear waters with world-class resorts.</p>
+                </div>
+                <div class="site">
+                    <h3>🏔️ Switzerland</h3>
+                    <p>Enjoy breathtaking Alps, cozy villages, and adventurous skiing trips.</p>
+                </div>
+                <div class="site">
+                    <h3>🏖️ Bali</h3>
+                    <p>Discover exotic temples, rice terraces, and vibrant nightlife in Bali.</p>
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <!-- New Section: Best Offer -->
+        <section id="best-offer" class="offers">
+            <h2>Best Offers</h2>
+            <p>
+                Travel with us and grab the best deals on international tours and holiday packages.  
+                From luxury vacations to budget-friendly getaways, we have something for everyone.
+            </p>
+
+            <div class="offer-list">
+                <div class="offer">
+                    <img src="images/maldives.jpg" alt="Maldives" />
+                    <h3>Maldives Escape</h3>
+                    <p>5 Nights / 6 Days – Starting at &#8377 899</p>
+                    <a href="#">Book Now</a>
+                </div>
+                
+                <div class="offer">
+                    <img src="images/switzerland.jpg" alt="Switzerland" />
+                    <h3>Swiss Alps Adventure</h3>
+                    <p>7 Nights / 8 Days – Starting at &#8377 1299</p>
+                    <a href="#">Book Now</a>
+                </div>
+                
+                <div class="offer">
+                    <img src="images/bali.jpg" alt="Bali" />
+                    <h3>Bali Paradise</h3>
+                    <p>4 Nights / 5 Days – Starting at &#8377 699</p>
+                    <a href="#">Book Now</a>
+                </div>
+                <div class="offer">
+                    <img src="images/dharamshala.jpg" alt="Bali" />
+                    <h3>Dharmasala</h3>
+                    <p>2 Nights / 3 Days – Starting at &#8377 566</p>
+                    <a href="#">Book Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Section: Hill Stations -->
+        <section id="hill-stations" class="hill-stations">
+            <h2>Top International Hill Stations</h2>
+            <p>
+                Explore the world’s most beautiful hill stations – perfect for nature lovers, adventurers, and those who just want to relax in the lap of mountains.
+            </p>
+
+            <div class="hill-list">
+                <div class="hill">
+                    <img src="images/swiss.jpg" alt="Swiss Alps">
+                    <h3>Swiss Alps, Switzerland</h3>
+                </div>
+                <div class="hill">
+                    <img src="images/shimla.jpg" alt="Shimla">
+                    <h3>Shimla, India</h3>
+                </div>
+                <div class="hill">
+                    <img src="images/darjeeling.jpg" alt="Darjeeling">
+                    <h3>Darjeeling, India</h3>
+                </div>
+                <div class="hill">
+                    <img src="images/banff.jpg" alt="Banff">
+                    <h3>Banff, Canada</h3>
+                </div>
+                <div class="hill">
+                    <img src="images/nuwara.jpg" alt="Nuwara Eliya">
+                    <h3>Nuwara Eliya, Sri Lanka</h3>
+                </div>
+                <div class="hill">
+                    <img src="images/queenstown.jpg" alt="Queenstown">
+                    <h3>Queenstown, New Zealand</h3>
+                </div>
+                <div class="hill">
+                    <img src="images/coonoor.jpg" alt="Coonoor">
+                    <h3>Coonoor , India</h3>
+                </div>
+                <div class="hill">
+                    <img src="images/cameron.jpg" alt="Cameron Highlands">
+                    <h3>Cameron Highlands, Malaysia</h3>
+                </div>
+                <div class="hill">
+                    <img src="images/deomali.jpg" alt="Cameron Highlands">
+                    <h3>Deomali , Odisha,India</h3>
+                </div>
+                <div class="hill">
+                    <img src="images/bandipur.jpg" alt="Cameron Highlands">
+                    <h3>Bandipur Hills, Nepal</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Section: Our Sites -->
+        <section id="book-trip" class="contact">
+            <h2>Book a trip</h2>
+            <p>Book and enjoy your Dream Destnation here</p>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Mob No" required>
+                <select name="destination" required>
+                    <option value="" disabled selected>Select your Destination</option>
+                    <option value="">Newzeland</option>
+                    <option value="">Dubai</option>
+                    <option value="">America</option>
+                    <option value="">Paris</option>
+                    <option value="">Rome</option>
+                    <option value="">London</option>
+                    <option value="">Tokyo</option>
+                    <option value="">Singapore</option>
+                    <option value="">Bali</option>
+                </select>
+                <textarea placeholder="Suggest Something...." rows="5" required></textarea>
+                <button type="submit">Book</button>
+            </form>
+
+            
+        </section>
+         <!-- Footer Section -->
+        <footer class="footer">
+            <div class="footer-container">
+                <!-- About -->
+                <div class="footer-about">
+                    <h3>Travel-X</h3>
+                    <p>
+                        Making your dream trips come true!  
+                        Explore the best destinations with us and create unforgettable memories.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#our-sites">Our Sites</a></li>
+                        <li><a href="#best-offer">Best Offers</a></li>
+                        <li><a href="#hill-stations">Hill Stations</a></li>
+                        <li><a href="#book-trip">Book Trip</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>Email: support@travelx.com</p>
+                    <p>Phone: +91 9876543210</p>
+                    <p>Address: Bhubaneswar, Odisha, India</p>
+                </div>
+
+                <!-- Social Media -->
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+                    <a href="#"><img src="images/search.png" alt="Google"></a>
+                </div>
+            </div>
+
+            
+        </footer>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Travel-X. All Rights Reserved. | Designed by You ❤️</p>
+                <br><br>
+            </div>
+
     </body>
 </html>
